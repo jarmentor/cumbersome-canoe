@@ -1,0 +1,17 @@
+{
+	"name": "cumbersome-canoe",
+	"version": "1.0.0",
+	"description": "This repo is just experimenting with various development oddities related to wordpress plugins. Not for production use. Purely theoretical.",
+	"main": "index.js",
+	"scripts": {
+		"build": "",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github-jarmentor:jarmentor/cumbersome-canoe.git"
+	},
+	"keywords": [],
+	"author": "Jonathan Armentor <jonathan@jonathanarmentor.com> (https://jonathanarmentor.com/)",
+	"license": "MIT"
+}

@@ -18,13 +18,7 @@
         "wp-coding-standards/wpcs": "^3.0"
     },
     "scripts": {
-        "phpcs": "vendor/bin/phpcs",
-        "post-install-cmd": [
-            "\"vendor/bin/phpcs\" --config-set installed_paths ../../wp-coding-standards/wpcs"
-        ],
-        "post-update-cmd": [
-            "\"vendor/bin/phpcs\" --config-set installed_paths ../../wp-coding-standards/wpcs"
-        ]
+        "phpcs": "vendor/bin/phpcs"
     },
     "config": {
         "allow-plugins": {
