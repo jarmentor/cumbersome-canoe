@@ -1,9 +1,9 @@
 name: Build release zip
 
 on:
-  push:
-    branches:
-      - main
+  create:
+    tags:
+      - v*
 
 jobs:
   build:
@@ -19,7 +19,15 @@ jobs:
           npm install
           npm run build
 
-      - name: Generate zip
-        uses: 10up/action-wordpress-plugin-build-zip@stable
-        env:
-          SLUG: cumbersome-canoe
+      - name: Archive Release
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: "zip"
+          filename: "cumbersome-canoe.zip"
+          exclusions: "*.git* /*node_modules/* .editorconfig"
+
+      - name: Upload Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          artifacts: "cumbersome-canoe.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
