@@ -1,0 +1,17 @@
+{
+    "name": "jarmentor/cumbersome-canoe",
+    "description": "an experimental development plugin for wordpress",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CumbersomeCanoe\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Jonathan Armentor",
+        "email": "jonathan@jonathanarmentor.dev"
+    }],
+    "minimum-stability": "stable",
+    "require": {}
+}
