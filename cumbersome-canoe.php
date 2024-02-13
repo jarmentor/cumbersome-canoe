@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Cumbersome Canoe
- * Version: 0.0.2
+ * Version: 0.0.3
  */
 
 require 'vendor/autoload.php';
