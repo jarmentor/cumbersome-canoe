@@ -8,7 +8,7 @@
  * @wordpress-plugin
  * Plugin Name:       Cumbersome Canoe
  * Description:       Experimental developer plugin.
- * Version:           0.0.3
+ * Version:           0.0.4
  * Requires at least: 5.2
  * Requires PHP:      8.0
  * Author:            Jonathan Armentor
