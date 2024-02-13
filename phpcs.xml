@@ -3,7 +3,7 @@
     <!-- Specify the WordPress Coding Standards -->
     <rule ref="WordPress">
         <!-- Exclude specific rules or sniffs if necessary -->
-        <!-- <exclude name="WordPress.CSRF.NonceVerification"/> -->
+		<exclude name="WordPress.Files.FileName" />
     </rule>
 
     <!-- Define the files and directories to scan -->

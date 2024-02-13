@@ -20,8 +20,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-
-
 require 'vendor/autoload.php';
 
 use CumbersomeCanoe\CumbersomeCanoe;

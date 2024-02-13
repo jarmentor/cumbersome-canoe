@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * This class represents the Cumbersome Canoe plugin.
  * It initializes the plugin and adds an admin notice banner.
  */
-class Cumbersome_Canoe {
+class CumbersomeCanoe {
 
 	/**
 	 * Constructor method.
