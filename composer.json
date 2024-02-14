@@ -1,28 +1,31 @@
 {
-    "name": "jarmentor/cumbersome-canoe",
-    "description": "an experimental development plugin for wordpress",
-    "type": "project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "CumbersomeCanoe\\": "src/"
-        }
-    },
-    "authors": [{
-        "name": "Jonathan Armentor",
-        "email": "jonathan@jonathanarmentor.dev"
-    }],
-    "minimum-stability": "stable",
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.8",
-        "wp-coding-standards/wpcs": "^3.0"
-    },
-    "scripts": {
-        "phpcs": "vendor/bin/phpcs"
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
-    }
+	"name": "jarmentor/cumbersome-canoe",
+	"description": "an experimental development plugin for wordpress",
+	"type": "project",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"CumbersomeCanoe\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Jonathan Armentor",
+			"email": "jonathan@jonathanarmentor.dev"
+		}
+	],
+	"minimum-stability": "stable",
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.8",
+		"wp-coding-standards/wpcs": "^3.0"
+	},
+	"scripts": {
+		"phpcbf": "vendor/bin/phpcbf",
+		"phpcs": "vendor/bin/phpcs"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
 }
