@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
 <ruleset name="WordPress Plugin Coding Standards">
-    <!-- Specify the WordPress Coding Standards -->
-    <rule ref="WordPress">
-        <!-- Exclude specific rules or sniffs if necessary -->
+	<!-- Specify the WordPress Coding Standards -->
+	<rule ref="WordPress">
+		<!-- Exclude specific rules or sniffs if necessary -->
 		<exclude name="WordPress.Files.FileName" />
-    </rule>
+	</rule>
 
-    <!-- Define the files and directories to scan -->
-    <file>./</file>
+	<!-- Define the files and directories to scan -->
+	<file>./</file>
 
 	<!-- Exclude patterns -->
-    <exclude-pattern>index.php</exclude-pattern>
-    <exclude-pattern>vendor/*</exclude-pattern>
-    <exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>index.php</exclude-pattern>
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>node_modules/*</exclude-pattern>
 
 
-    <!-- Set custom arguments -->
-    <arg name="basepath" value="."/>
-	<arg name="parallel" value="50"/>
-    <arg name="colors"/>
-    <arg name="extensions" value="php"/>
-
+	<!-- Set custom arguments -->
+	<arg name="basepath" value="." />
+	<arg name="parallel" value="50" />
+	<arg name="colors" />
+	<arg name="extensions" value="php" />
 </ruleset>
